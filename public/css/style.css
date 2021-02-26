@@ -1,0 +1,132 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap");
+
+body {
+    background-image: url("../images/background.jpg");
+	background-color: #918a8a;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    -o-background-size: cover!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    background-size: cover!important;
+    background-position: center;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+label {
+ margin-left: 15px;
+ font-family: 'Montserrat', sans-serif;
+}
+ 
+input[type=text] {
+  width: 100%;
+  border-radius: 3px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-left: 5px solid #6cccf5;
+  font-family: 'Montserrat', sans-serif;
+  background: #ebdfdf;
+}
+
+input[type=password] {
+  width: 100%;
+  border-radius: 3px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-left: 5px solid #6cccf5;
+  font-family: 'Montserrat', sans-serif;
+  background: #ebdfdf;
+}
+
+input[type=password]:focus {
+  border-left: 5px solid #00648f;
+}
+
+input[type=text]:focus {
+  border-left: 5px solid #00648f;
+}
+
+input[type=text]:hover {
+  background:#172429;
+}
+
+input[type=password]:hover {
+  background:#172429;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #05f3ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #70f3fa;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #363030;
+  padding: 10px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 200px;
+  border-bottom: 1px solid white;
+}
+
+.container-success {
+  border-radius: 5px;
+  background-color: #363030;
+  padding: 90px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 250px;
+  border-bottom: 1px solid white;
+}
+
+.title {
+  text-align:center;
+  color: #000000;
+  border-bottom: 1px solid #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.success {
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+.bottom {
+ border-top: 1px solid #ffffff;
+}
+
+footer {
+ padding: 0px;
+ margin: 0px;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ text-align: center;
+ width: 100%;
+ background: #5c5757;
+}
+
+a {
+ color: #000000;
+}
