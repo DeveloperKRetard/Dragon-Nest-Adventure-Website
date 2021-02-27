@@ -7,15 +7,15 @@
         <title>Dragon Nest Adventure</title>
         <link rel="stylesheet" href="./css/style.css" type="text/css">
 		<link rel="icon" href="./app.ico" type="ico/icon" sizes="48x48">
-	 </head>
+		</head>
 <body> 
 	<div class="container">
         <form action="/register" method="post">
 			<p class="title">REGISTRATION</p>
             	<label for="Username">Username:</label>
-            		<input type="text" id="Username" name="username" placeholder="Username">
+            		<input type="text" id="Username" name="username" placeholder="Username" required>
             		 <label for="Password">Password:</label>
-                    <input id="Password" type="password" name="password" placeholder="Password">
+                    <input id="Password" type="password" name="password" placeholder="Password" required>
 				<div class="bottom">
         <input type="submit" value="Sign-up">
 	  </div>
@@ -47,5 +47,6 @@
 </svg>
 			</a>
 		  </footer>
+		  <script src="../js/script.js"></script>
   </body>
 </html>

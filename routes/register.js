@@ -22,7 +22,7 @@ router.post("/register", urlEncodedParser, async (req, res) => {
   } catch (err) {
     console.error(err);
     console.log(err);
-    res.send("Account Already Exists!");
+	res.redirect("./User");
   }
 });
 
